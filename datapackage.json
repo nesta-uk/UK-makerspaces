@@ -1,0 +1,743 @@
+3 files 
+
+ukmakerspacesanonymiseddata.csv
+ukmakerspacesidentifiabledata.csv
+datapackage.json 
+
+#this is a tabular datapackage
+
+
+
+#this is about the core Uk makerspaces dataset
+
+{
+  "title": "Open dataset of UK makerspaces - identifiable data",
+  "name": "Open dataset of UK makerspaces - identifiable data",
+  "description": "Open dataset of UK makerspaces - identifiable data is linked to makerspaces and includes information on location, space, tools and materials, membership and users, amenities and services, external relationships, legal structure and founders, as well as aspirations and challenges.This is available in machine-readable CSV format with accompanying JSON tabular data package, and a ‘human readable’ PDF format More information about this project: http://www.nesta.org.uk/UK-makerspaces.Authors: Andrew Sleigh, Hannah Stewart, Kathleen Stokes. 
+
+Publisher: Nesta 
+
+Issued: 24/04/2015 12:00
+
+Version history:
+Version 1.0.5 – First full public release. Corrections made, duplicate spaces removed
+Version 1.0 - First public ‘alpha’ release
+
+URL: http://www.nesta.org.uk/UK-makerspaces/dataset
+
+Please also see Nesta's privacy policy: http://www.nesta.org.uk/privacy
+
+Contact: research@nesta.org.uk
+",
+  "licenses": [
+    {
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "title": "Creative Commons Attribution Share-Alike 4.0",
+      "id": "CC-BY-SA-4.0"
+    }
+  ],
+  "resources": [
+    {
+      "name": "ukmakerspacesidentifiabledata.csv",
+      "path": "ukmakerspacesidentifiabledata.csv",
+      "mediatype": "text/csv",
+      "bytes": 299422,
+      "schema": {
+        "fields": [
+          {
+            "name": "Timestamp",
+            "description": "This is the time that data was first added via the survey form, and is not necessarily the time when the makerspace themselves added data",
+            "type": "string"
+          },
+          {
+            "name": "Collected by",
+            "description": " This is metadata that tells you if the data was added by the makerspace themselves or someone autherised to act on their behalf or by a researcher using available information or followup interviews. Where researchers have amended responses this is also recorded.",
+            "type": "string"
+          },
+          {
+            "name": "Name of makerspace",
+             "description": "",
+            "type": "string"
+          },
+          {
+            "name": "Website / URL",
+            "description": "",
+            "format": "URL",
+            "type": "string"
+          },
+          {
+            "name": "Twitter",
+            "description": " this is a twitter handle, ie format @twitterhandle ",
+            "type": "string"
+          },
+          {
+            "name": "Facebook",
+            "description": " this is a URL that links to the spaces facebook page",
+            "format": "URL",
+            "type": "string"
+          },
+          {
+            "name": "Other online presence / social media account",
+            "description": "this is a string of URLs to other online presence, social media accounts",
+            "type": "string"
+          },
+          {
+            "name": "IRC Channel",
+            "description": "responses here vary, some are #IRCchannel, some are URLs",
+            "type": "string"
+          },
+          {
+            "name": "Public mailing list, newsgroup or forum",
+            "description": "responses here vary, some are free text, some are URLs",
+            "type": "string"
+          },
+          {
+            "name": "Email address",
+            "description": "",
+            "format": "EMAIL",
+            "type": "string"
+          },
+          {
+            "name": "Phone number",
+            "description": "these are UK phone numbers",
+            "type": "string"
+          },
+          {
+            "name": "Address",
+            "description": "",
+            "type": "string"
+          },
+          {
+            "name": "Postcode",
+            "description": "",
+            "type": "string"
+          },
+          {
+            "name": "Region",
+            "description": "",
+            "type": "string"
+          },
+          {
+            "name": "Area",
+            "description": "",
+            "type": "string"
+          },
+          {
+            "name": "Type of location",
+            "description": "as in permanent,mobile or temporary",
+            "type": "string"
+          },
+          {
+            "name": "Was your makerspace previously at another location",
+            "description": "",
+            "type": "string"
+          },
+          {
+            "name": "If so, where and what was the reason for your move?",
+            "type": "number"
+          },
+          {
+            "name": "Who owns or hosts your physical space?",
+            "type": "string"
+          },
+          {
+            "name": "Floor space (sq m)",
+            "type": "number"
+          },
+          {
+            "name": "Floor space (sq ft )",
+            "type": "string"
+          },
+          {
+            "name": "Date your space opened (or plans to open)",
+            "description": " these follow the format DD/MM/YYYY",
+            "type": "string"
+          },
+          {
+            "name": "Date your space closed (if it is no longer running)",
+            "description": " these follow the format DD/MM/YYYY"
+            "type": "number"
+          },
+          {
+            "name": "If closed:",
+            "type": "number"
+          },
+          {
+            "name": "What access do people have to the space?",
+            "type": "string"
+          },
+          {
+            "name": "Please tell us about your membership fees",
+            "type": "string"
+          },
+          {
+            "name": "Notes on access rules",
+            "type": "string"
+          },
+          {
+            "name": "Membership fee structure type",
+            "description": "this is researcher added shorthand for the membership fee approach, used to categorise, based on data but subjective"
+            "type": "string"
+          },
+          {
+            "name": "cost to member/user per month",
+            "type": "number"
+          },
+          {
+            "name": "Amenities / facilities",
+            "type": "string"
+          },
+          {
+            "name": "Accessibility for those with special needs",
+            "type": "string"
+          },
+          {
+            "name": "Notes on accessibility",
+            "type": "number"
+          },
+          {
+            "name": "Tools and equipment (unsorted list)",
+            "type": "string"
+          },
+          {
+            "name": "General workshop equipment",
+            "type": "string"
+          },
+          {
+            "name": "General Hand tools (manual)",
+            "type": "string"
+          },
+          {
+            "name": "General Hand tools (powered)",
+            "type": "string"
+          },
+          {
+            "name": "General workshop (bench mounted/freestanding tools)",
+            "type": "string"
+          },
+          {
+            "name": "Woodwork",
+            "type": "string"
+          },
+          {
+            "name": "Metalwork",
+            "type": "string"
+          },
+          {
+            "name": "Fine metalwork (e.g. jewellery)",
+            "type": "string"
+          },
+          {
+            "name": "Fabrics",
+            "type": "string"
+          },
+          {
+            "name": "Ceramics",
+            "type": "string"
+          },
+          {
+            "name": "Plastics",
+            "type": "string"
+          },
+          {
+            "name": "Glass",
+            "type": "string"
+          },
+          {
+            "name": "Painting and graphic arts",
+            "type": "string"
+          },
+          {
+            "name": "Print making",
+            "type": "string"
+          },
+          {
+            "name": "Photography and film making",
+            "type": "string"
+          },
+          {
+            "name": "Science, Synthetic Bio, Chemistry",
+            "type": "string"
+          },
+          {
+            "name": "Computing",
+            "type": "string"
+          },
+          {
+            "name": "Digital fabrication",
+            "type": "string"
+          },
+          {
+            "name": "Electronics",
+            "type": "string"
+          },
+          {
+            "name": "Audio and music",
+            "type": "string"
+          },
+          {
+            "name": "Sculpture",
+            "type": "string"
+          },
+          {
+            "name": "Construction and architecture",
+            "type": "string"
+          },
+          {
+            "name": "Display",
+            "type": "string"
+          },
+          {
+            "name": "Project documentation",
+            "type": "string"
+          },
+          {
+            "name": "Are there any other areas of practice you support?",
+            "type": "string"
+          },
+          {
+            "name": "Does your space specialise in any tools or technologies?",
+            "type": "string"
+          },
+          {
+            "name": "Which tools can be operated only after induction?",
+            "type": "string"
+          },
+          {
+            "name": "Which tools are operated only by staff?",
+            "type": "string"
+          },
+          {
+            "name": "Describe any other restrictions on access to tools",
+            "type": "string"
+          },
+          {
+            "name": "Do you have a materials shop?",
+            "type": "string"
+          },
+          {
+            "name": "Are materials provided",
+            "type": "string"
+          },
+          {
+            "name": "Types of materials used in the space",
+            "type": "string"
+          },
+          {
+            "name": "Does your space specialise in any materials?",
+            "type": "string"
+          },
+          {
+            "name": "Do you accept donations of materials and components for general use?",
+            "type": "string"
+          },
+          {
+            "name": "Do you keep a list of members or regular users?",
+            "type": "string"
+          },
+          {
+            "name": "Current membership or userbase",
+            "type": "number"
+          },
+          {
+            "name": "cluster type by size",
+            "description": "this categorised makerspaces based in membership number response, categorised as small  30 and under members, medium  30 - 99 members,large  100 +"
+            "type": "string"
+          },
+          {
+            "name": "Have you adopted a code of conduct?",
+            "type": "string"
+          },
+          {
+            "name": "Gender balance of members or regular users [Female]",
+            "description": "this is a percentage of regular users"
+            "type": "string"
+          },
+          {
+            "name": "Gender balance of members or regular users [Male]",
+            "description": "this is a percentage of regular users"
+            "type": "string"
+          },
+          {
+            "name": "Gender balance of members or regular users [Other]",
+            "description": "this is a percentage of regular users"
+            "type": "number"
+          },
+          {
+            "name": "Gender balance of members or regular users [Prefer not to say]",
+            "description": "this is a percentage of regular users"
+            "type": "number"
+          },
+          {
+            "name": "What ethnic groups are represented amongst your membership? [White]",
+            "description": "this is a percentage of regular users"
+            "type": "string"
+          },
+          {
+            "name": "What ethnic groups are represented amongst your membership? [Mixed or multiple ethnic groups]",
+             "description": "this is a percentage of regular users"
+            "type": "number"
+          },
+          {
+            "name": "What ethnic groups are represented amongst your membership? [Asian or Asian British]",
+            "description": "this is a percentage of membership"
+            "type": "number"
+          },
+          {
+            "name": "What ethnic groups are represented amongst your membership? [Black, African, Caribbean or Black British]",
+            "description": "this is a percentage of membership"
+            "type": "number"
+          },
+          {
+            "name": "What ethnic groups are represented amongst your membership? [Other ethnic group]",
+            "description": "this is a percentage of membership"
+            "type": "number"
+          },
+          {
+            "name": "Total visits in November 2014",
+            "description": "this is a range, ie 50-100"
+            "type": "string"
+          },
+          {
+            "name": "Unique users in November 2014",
+            "description": "this is a range, ie 50-100"
+            "type": "string"
+          },
+          {
+            "name": "User types in November 2014 [Visitors or observers]",
+            "description": "this is a percentage range of user types from november 2014"
+            "type": "number"
+          },
+          {
+            "name": "User types in November 2014 [Hobbyist]",
+             "description": "this is a percentage range of user types from november 2014"
+            "type": "number"
+          },
+          {
+            "name": "User types in November 2014 [Startups]",
+            "description": "this is a percentage range of user types from november 2014"
+            "type": "number"
+          },
+          {
+            "name": "User types in November 2014 [Sole traders/Microbusinesses]",
+            "description": "this is a percentage range of user types from november 2014"
+            "type": "number"
+          },
+          {
+            "name": "User types in November 2014 [SMEs]",
+            "description": "this is a percentage range of user types from november 2014"
+            "type": "number"
+          },
+          {
+            "name": "User types in November 2014 [Corporates, and large orgs]",
+            "description": "this is a percentage range of user types from november 2014"
+            "type": "number"
+          },
+          {
+            "name": "User types in November 2014 [Students]",
+            "description": "this is a percentage range of user types from november 2014"
+            "type": "number"
+          },
+          {
+            "name": "User types in November 2014 [Teachers]",
+            "description": "this is a percentage range of user types from november 2014"
+            "type": "number"
+          },
+          {
+            "name": "User types in November 2014 [Other / don't know]",
+            "description": "this is a percentage range of user types from november 2014"
+            "type": "number"
+          },
+          {
+            "name": "Purpose of user visits in November 2014 [Receive training, instruction or learn a skill]",
+            "description": "this is a percentage range of user purpose from november 2014"
+            "type": "number"
+          },
+          {
+            "name": "Purpose of user visits in November 2014 [Introduction to making]",
+            "description": "this is a percentage range of user purpose from november 2014"
+            "type": "number"
+          },
+          {
+            "name": "Purpose of user visits in November 2014 [Make something specific]",
+            "description": "this is a percentage range of user purpose from november 2014"
+            "type": "number"
+          },
+          {
+            "name": "Purpose of user visits in November 2014 [Prototype]",
+            "description": "this is a percentage range of user purpose from november 2014"
+            "type": "number"
+          },
+          {
+            "name": "Purpose of user visits in November 2014 [Make one-off pieces]",
+            "description": "this is a percentage range of user purpose from november 2014"
+            "type": "number"
+          },
+          {
+            "name": "Purpose of user visits in November 2014 [Small batch production]",
+            "description": "this is a percentage range of user purpose from november 2014"
+            "type": "number"
+          },
+          {
+            "name": "Purpose of user visits in November 2014 [Network or find a maker/partner/designer, etc]",
+            "description": "this is a percentage range of user purpose from november 2014"
+            "type": "number"
+          },
+          {
+            "name": "Purpose of user visits in November 2014 [Socialise]",
+            "description": "this is a percentage range of user purpose from november 2014"
+            "type": "number"
+          },
+          {
+            "name": "Purpose of user visits in November 2014 [Other (detail below)]",
+            "description": "this is either a percentage range of user purpose from november 2014 or a free text response"
+            "type": "string"
+          },
+          {
+            "name": "Other reason for visit",
+            "type": "string"
+          },
+          {
+            "name": "Staff and support",
+            "type": "string"
+          },
+          {
+            "name": "What training do you offer?",
+            "type": "string"
+          },
+          {
+            "name": "What events do you run?",
+            "type": "string"
+          },
+          {
+            "name": "Other programmes",
+            "type": "string"
+          },
+          {
+            "name": "Does your space host or have a presence at off-site events?",
+            "type": "string"
+          },
+          {
+            "name": "Does your makerspace community contribute to or maintain any open hardware or open source software projects?",
+            "description": "this is free text with some included URLs to projects"
+            "type": "string"
+          },
+          {
+            "name": "Do you have a direct relationship with your local council?",
+            "type": "string"
+          },
+          {
+            "name": "Do your neighbours in nearby buildings know what you are?",
+            "type": "string"
+          },
+          {
+            "name": "Are you on any mailing lists, forums, or private online communities for makerspace managers/founders/staff?",
+            "type": "number"
+          },
+          {
+            "name": "Do you regularly collaborate or work with any other makerspaces in particular? ",
+            "type": "number"
+          },
+          {
+            "name": "Do you produce accounts?",
+            "type": "string"
+          },
+          {
+            "name": "Founders",
+            "type": "string"
+          },
+          {
+            "name": "What backgrounds do the founders/managers/directors have?",
+            "type": "string"
+          },
+          {
+            "name": "Legal Structure",
+            "type": "string"
+          },
+          {
+            "name": "What are your ambitions for your makerspace?",
+            "type": "string"
+          },
+          {
+            "name": "What problems or challenges has your makerspace encountered?",
+            "type": "string"
+          },
+          {
+            "name": "What is your best success story?",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ]
+}
+# this next section is about the anon dataset
+
+{
+  "title": "Open dataset of UK makerspaces - anonymised data",
+  "name": "Open dataset of UK makerspaces - anonymised data",
+  "description": "Open dataset of UK makerspaces - anonymised data has been anonymised and includes information on makerspace turnover, income, expenditure and business rates. This is available in machine-readable CSV format. More information about this project: http://www.nesta.org.uk/UK-makerspaces Authors: Andrew Sleigh, Hannah Stewart, Kathleen Stokes
+
+Publisher: Nesta 
+
+Issued: 24/04/2015 12:00
+
+Version history:
+Version 1.0.5 – First full public release. Corrections made, duplicate spaces removed
+Version 1.0 - First public ‘alpha’ release
+
+URL: http://www.nesta.org.uk/UK-makerspaces/dataset
+
+Please also see Nesta's privacy policy: http://www.nesta.org.uk/privacy
+
+Contact: research@nesta.org.uk
+",
+  "licenses": [
+    {
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "title": "Creative Commons Attribution Share-Alike 4.0",
+      "id": "CC-BY-SA-4.0"
+    }
+  ],
+  "resources": [
+    {
+      "name": "ukmakerspacesanonymiseddata.csv",
+      "path": "ukmakerspacesanonymiseddata.csv",
+      "mediatype": "text/csv",
+      "bytes": 9111,
+      "schema": {
+        "fields": [
+          {
+            "name": "Legal Structure",
+            "type": "string"
+          },
+          {
+            "name": "Size",
+            "description": "contextual data added by researchers. small  30 and under members, medium  30 - 99 members,large  100 + ",
+            "type": "string"
+          },
+          {
+            "name": "What was your turnover in November 2014?",
+            "type": "string"
+          },
+          {
+            "name": "What is your annual turnover? ",
+            "type": "string"
+          },
+          {
+            "name": "These income figures are per :",
+            "type": "string"
+          },
+          {
+            "name": "Shop",
+            "type": "number"
+          },
+          {
+            "name": "Corporate income",
+            "type": "string"
+          },
+          {
+            "name": "Grants or public funds",
+            "type": "string"
+          },
+          {
+            "name": "Membership",
+            "type": "string"
+          },
+          {
+            "name": "Bureau service",
+            "type": "string"
+          },
+          {
+            "name": "Courses and training - public",
+            "type": "string"
+          },
+          {
+            "name": "Courses and training - teachers and educators",
+            "type": "string"
+          },
+          {
+            "name": "Space hire",
+            "type": "string"
+          },
+          {
+            "name": "Event space hire",
+            "type": "string"
+          },
+          {
+            "name": "Cafe",
+            "type": "string"
+          },
+          {
+            "name": "Donations or sponsorship",
+            "type": "string"
+          },
+          {
+            "name": "Parties or social events",
+            "type": "string"
+          },
+          {
+            "name": "Coworking / rented desk or office space",
+            "type": "string"
+          },
+          {
+            "name": "Other",
+            "type": "string"
+          },
+          {
+            "name": "These expenditure figures are per:",
+            "type": "string"
+          },
+          {
+            "name": "Premises cost",
+            "type": "string"
+          },
+          {
+            "name": "Insurance ",
+            "type": "string"
+          },
+          {
+            "name": "Utility cost",
+            "type": "string"
+          },
+          {
+            "name": "Staff costs",
+            "type": "string"
+          },
+          {
+            "name": "Equipment purchase",
+            "type": "string"
+          },
+          {
+            "name": "Equipment maintenance",
+            "type": "string"
+          },
+          {
+            "name": "Events and hospitality",
+            "type": "string"
+          },
+          {
+            "name": "Marketing",
+            "type": "string"
+          },
+          {
+            "name": "Do you pay business rates? ",
+            "type": "string"
+          },
+          {
+            "name": "If yes, how much do you pay for business rates?",
+            "type": "number"
+          },
+          {
+            "name": "Do you recieved any of the below types of business rates relief?",
+            "type": "string"
+          },
+          {
+            "name": "Does your makerspace have access to credit?",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}
