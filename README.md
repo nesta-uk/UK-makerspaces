@@ -19,6 +19,10 @@ License: This data is released under a CC Attribution-ShareAlike 4.0 Internation
 
 Please also see Nesta's privacy policy
 
+Contribution policy:
+
+This dataset represents a snapshot, so it will not be updated by the researchers. Users are welcome to fork the dataset and maintain it as they see fit. To correct any errors or functionality issues, we are accepting comments from individuals with a direct relation to any makerspaces in the dataset until Friday, 8 May 2015.
+
 Contact: research@nesta.org.uk
 
 - See more at: http://www.nesta.org.uk/UK-makerspaces/dataset#sthash.EeCvG0rK.dpuf
